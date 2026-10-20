@@ -4,8 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdint.h>
-
-#define RAM_SIZE (512 * 1024) // 512KB (DS has 4MB total)
+#define RAM_SIZE (2 * 1024 * 1024) // 2MB PS1 main RAM
 
 static uint8_t ram[RAM_SIZE];
 
